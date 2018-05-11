@@ -139,7 +139,7 @@ client.on('ready', () => {
     embed.setThumbnail('https://media.discordapp.net/attachments/372916099114729472/388913604377968662/image.png');
     embed.addField('Ready', 'I am online and at your service, Jett!');
     embed.setTimestamp();
-    client.users.find('id', '218397146049806337').send({ embed });
+    client.users.find('id', '272985977667059713').send({ embed });
     
     //client.user.setGame({name: prefix + 'help'});
     //client.user.setGame({type: 1, name: prefix + "help", url: ""});
