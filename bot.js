@@ -137,9 +137,9 @@ client.on('ready', () => {
     let embed = new Discord.RichEmbed();
     embed.setColor('#0DB221');
     embed.setThumbnail('https://media.discordapp.net/attachments/372916099114729472/388913604377968662/image.png');
-    embed.addField('Ready', 'I am online and at your service, Jett!');
+    embed.addField('Ready', 'I am online and at your server TBZ!');
     embed.setTimestamp();
-    client.users.find('id', '272985977667059713').send({ embed });
+    client.users.find('id', '272985977667059713', '391991083204214788').send({ embed });
     
     //client.user.setGame({name: prefix + 'help'});
     //client.user.setGame({type: 1, name: prefix + "help", url: ""});
